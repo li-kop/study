@@ -1,0 +1,15 @@
+server:
+  port: 8081
+  undertow:
+    io-threads: 4
+    worker-threads: 20
+    buffer-size: 1024
+    direct-buffers: true
+    accesslog:
+      dir:
+      enabled: false
+      pattern: common
+      prefix: access_log
+      suffix: log
+      
+
